@@ -1,0 +1,11 @@
+# Unity YAML merge
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset merge=unityyamlmerge
+
+# C# text
+*.cs text
+
+# Shader text
+*.shader text
+*.cginc text
