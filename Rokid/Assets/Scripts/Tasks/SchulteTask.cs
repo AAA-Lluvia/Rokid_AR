@@ -13,7 +13,7 @@ namespace FocusWorld.Tasks
     {
         [Header("配置（二期可迁到 ScriptableObject）")]
         [SerializeField] int gridSize = 5;                 // 5×5
-        [SerializeField] float spacing = 0.12f;            // 相邻块间距（米）
+        [SerializeField] float spacing = 1.2f;            // 相邻块间距（米）
         [SerializeField] Selectable tilePrefab;            // NumberTile 预制体（B 提供）
         [SerializeField] Transform gridContainer;          // 生成父节点（放在 TaskAnchor 下）
 
